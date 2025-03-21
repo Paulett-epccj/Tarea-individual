@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Los caballeros del zodiaco</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #80760a;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #130e66;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #3d77e3;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #223e99;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Los caballeros del zodiaco</h2>
+<p>Trabajo de Paulett Blanco Hernandez</p>
+<p>trabajo 2</p>
+
+<header>
+  <h2>Armaduras</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Oro</a></li>
+      <li><a href="#">Plata</a></li>
+      <li><a href="#">Bronce</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Los caballeros del zodiaco</h1>
+    <p>
+        <img src="https://www.gratistodo.com/wp-content/uploads/2016/09/Caballeros-del-Zodiaco-10.jpg" style= float:right width="500" height="120">
+        Los caballeros del zodiaco son jovenes entrenados para proteger a Atena sin embargo cada uno debe ganar su propia armadura</p>
+    <p>Se clasifican en los caballeros de oro los mas poderosos,de plata  y de bronce los mas debiles con excepcion a los protagonistsas</p>
+  </article>
+</section>
+
+<footer>
+  <p>mas informacion</p>
+</footer>
+
+</body>
+</html>
+
