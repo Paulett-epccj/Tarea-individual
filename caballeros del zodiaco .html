@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Caballeros del zodiaco</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-se
+}
+
+/* Style the header */
+header {
+  background-color: #d8c523;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 350px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #85edd7;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #27366c;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Paulett Blanco Hernandez</h2>
+
+<header>
+  <h2>Los caballeros del zodiaco</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Oro</a></li>
+      <li><a href="#">Plata</a></li>
+      <li><a href="#">Bronce</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+  <h1>Quienes son los caballeros del zodiaco</h1>
+  <img src="https://www.bing.com/images/blob?bcid=rB99BKfRHDwIEFW15wD.MtmHRK9f.....0Y" alt="Caballeros del Zodiaco" style="width: 85%; height: auto; margin-bottom: 20px;">
+  <p>Los caballeros del zodiaco son jovenes entrenados para proteger a Atena y estos tienen el deber de ganarse alguna armadura segun su poder para cumplir su deber de proteger a Atena.</p>
+  <p>Estos son clasificados segun su armadura, los mas fuertes son los caballeros con armadura de oro, despues estan los caballeros con armadura de plata y finalmente los mas debiles que son los caballeros de bronce con excepcion al protagonista.</p>
+</article>
+}
+  
+    <h1>Quienes son los caballeros del zodiaco</h1>
+    <p>Los caballeros del zodiaco son jovenes entrenados para proteger a Atena y estos tienen el deber de ganarse alguna armadura segun su poder para cumplir su deber de proteger a Atena. </p>
+    <p>Estos son clasificados segun su aramadura, los mas fuertes son los caballeros con armadura de oro, despues estan los caballeros con armadura de plata y finalmente los mas debiles que son los caballeros de bronce con exceocion al protagonista.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Mas informacion</p>
+</footer>
+
+</body>
+</html>
+
